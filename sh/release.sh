@@ -33,6 +33,7 @@ python3 py/make_readme.py $VERSION
 echo ""
 
 echo " * pushing changes to github"
+git add README.md
 git add csv/*
 git commit -m "Release $VERSION"
 git push origin main
