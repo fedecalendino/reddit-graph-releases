@@ -1,6 +1,6 @@
-# REDDIT-GRAPH v2022.09.17.023033
+# REDDIT-GRAPH v2022.09.17.193518
 
-This project aims to build a graph of subreddit relations based on how they reference each other.
+This project aims to build a graph of subreddit links based on how they reference each other.
 
 The database dumps in (csv format) can be found [HERE!](https://github.com/fedecalendino/reddit-graph-releases/tree/main/csv).
 
@@ -39,11 +39,11 @@ The database dumps in (csv format) can be found [HERE!](https://github.com/fedec
 
 TYPE | AMOUNT
 --- | ---
-TOTAL|126335
-public|72706
-banned|31158
-restricted|17388
-private|5044
+TOTAL|126354
+public|72674
+banned|31189
+restricted|17407
+private|5045
 archived|17
 premium|11
 user|10
@@ -51,11 +51,11 @@ employees|1
 
 
 
-## RELATIONS
+## LINKS
 
 ### PROPERTIES
 
-* `source (str)`: **name** of the subreddit where the relation was found.
+* `source (str)`: **name** of the subreddit where the link was found.
 * `target (str)`: **name** of the referenced subreddit.
 * `type (str)`: place where the reference from source to target was found.
     * **description**: the reference was found in the description (see subreddit.description).
@@ -66,16 +66,16 @@ employees|1
         * e.g.: [/r/rocketleague > /r/rocketleagueesports](https://www.reddit.com/r/RocketLeague/) (under "Esports/Subreddit").
     * **wiki**: the reference was found in any of the pages of a subreddits's wiki
         * e.g.: [/r/zelda > /r/breath_of_the_wild](https://www.reddit.com/r/zelda/wiki/related_subreddits/) (under "For specific games").
-* `updated_at (datetime)`: utc timestamp of when the information the relation was last updated.
+* `updated_at (datetime)`: utc timestamp of when the information the link was last updated.
 
 ### STATS
 
 TYPE | AMOUNT
 --- | ---
-TOTAL|328962
-wiki|213772
-sidebar|103372
-topbar|7280
-description|4538
+TOTAL|329129
+wiki|213777
+sidebar|103532
+topbar|7281
+description|4539
 
 
