@@ -45,3 +45,5 @@ curl -X POST  -H "Accept: application/vnd.github+json" -H "Authorization: Bearer
 echo ""
 
 echo "Finished"
+echo "https://github.com/$GITHUB_OWNER/$GITHUB_REPOSITORY/releases/tag/$VERSION"
+echo ""

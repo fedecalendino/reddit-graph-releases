@@ -56,7 +56,7 @@ employees|1
 ### PROPERTIES
 
 * `source (str)`: **name** of the subreddit where the link was found.
-* `target (str)`: **name** of the referenced subreddit.
+* `target (str)`: **name** of the linked subreddit.
 * `type (str)`: place where the reference from source to target was found.
     * **description**: the reference was found in the description (see subreddit.description).
         * e.g.: [/r/hbo -> /r/hbomax](https://www.reddit.com/r/hbo/) (under "About Community").
