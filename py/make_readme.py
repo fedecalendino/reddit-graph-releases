@@ -29,6 +29,9 @@ readme = f"""
 
 This project aims to build a graph of subreddit relations based on how they reference each other.
 
+The database dumps in (csv format) can be found [HERE!](https://github.com/fedecalendino/reddit-graph-releases/tree/main/csv).
+
+
 
 ## SUBREDDITS
 
