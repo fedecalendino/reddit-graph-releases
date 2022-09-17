@@ -1,0 +1,16 @@
+type,nsfw,quarantined,amount
+archived,f,f,17
+banned,,,31249
+employees,,,1
+premium,,,11
+private,,,5067
+public,f,f,58662
+public,f,t,29
+public,t,f,14103
+public,t,t,11
+restricted,f,f,14378
+restricted,f,t,21
+restricted,t,f,3017
+restricted,t,t,1
+user,f,f,4
+user,t,f,6
