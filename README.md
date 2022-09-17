@@ -1,4 +1,4 @@
-# REDDIT-GRAPH v2022.09.17.193518
+# REDDIT-GRAPH v2022.09.17.201912
 
 This project aims to build a graph of subreddit links based on how they reference each other.
 
@@ -72,9 +72,9 @@ employees|1
 
 TYPE | AMOUNT
 --- | ---
-TOTAL|329129
-wiki|213777
-sidebar|103532
+TOTAL|330384
+wiki|213815
+sidebar|104749
 topbar|7281
 description|4539
 
