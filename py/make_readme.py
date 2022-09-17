@@ -27,7 +27,7 @@ version = sys.argv[1]
 readme = f"""
 # REDDIT-GRAPH {version}
 
-This project aims to build a graph of subreddit relations based on how they reference each other.
+This project aims to build a graph of subreddit links based on how they reference each other.
 
 The database dumps in (csv format) can be found [HERE!](https://github.com/fedecalendino/reddit-graph-releases/tree/main/csv).
 
@@ -67,11 +67,11 @@ The database dumps in (csv format) can be found [HERE!](https://github.com/fedec
 {make_table("subreddits_by_type")}
 
 
-## RELATIONS
+## LINKS
 
 ### PROPERTIES
 
-* `source (str)`: **name** of the subreddit where the relation was found.
+* `source (str)`: **name** of the subreddit where the link was found.
 * `target (str)`: **name** of the referenced subreddit.
 * `type (str)`: place where the reference from source to target was found.
     * **description**: the reference was found in the description (see subreddit.description).
@@ -82,11 +82,11 @@ The database dumps in (csv format) can be found [HERE!](https://github.com/fedec
         * e.g.: [/r/rocketleague > /r/rocketleagueesports](https://www.reddit.com/r/RocketLeague/) (under "Esports/Subreddit").
     * **wiki**: the reference was found in any of the pages of a subreddits's wiki
         * e.g.: [/r/zelda > /r/breath_of_the_wild](https://www.reddit.com/r/zelda/wiki/related_subreddits/) (under "For specific games").
-* `updated_at (datetime)`: utc timestamp of when the information the relation was last updated.
+* `updated_at (datetime)`: utc timestamp of when the information the link was last updated.
 
 ### STATS
 
-{make_table("relations_by_type")}
+{make_table("links_by_type")}
 
 """
 

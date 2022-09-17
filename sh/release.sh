@@ -25,8 +25,8 @@ echo ""
 dump "subreddits_by_type"
 dump "subreddits"
 
-dump "relations_by_type"
-dump "relations"
+dump "links_by_type"
+dump "links"
 
 echo " * generating readme file"
 python3 py/make_readme.py $VERSION
