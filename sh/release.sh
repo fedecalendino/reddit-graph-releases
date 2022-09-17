@@ -22,6 +22,7 @@ VERSION=$(date +"v%Y.%m.%d.%H%M%S")
 echo "Releasing $VERSION..."
 echo ""
 
+dump "subreddits_by_class"
 dump "subreddits_by_type"
 dump "subreddits"
 
