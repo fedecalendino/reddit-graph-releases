@@ -76,7 +76,7 @@ The database dumps in (csv format) can be found [HERE!](https://github.com/fedec
 * `type (str)`: place where the reference from source to target was found.
     * **description**: the reference was found in the description (see subreddit.description).
         * e.g.: [/r/hbo -> /r/hbomax](https://www.reddit.com/r/hbo/) (under "About Community").
-    * **sidebar**: the reference was found in the links on the sidebar.
+    * **sidebar**: the reference was found in the sidebar (this include both sidebars from old and new reddit styles).
         * e.g.: [/r/hearthstone -> /r/bobstavern](https://www.reddit.com/r/hearthstone/) (under "Related Subreddits").
     * **topbar**: the reference was found in the links on the topbar.
         * e.g.: [/r/rocketleague > /r/rocketleagueesports](https://www.reddit.com/r/RocketLeague/) (under "Esports/Subreddit").
