@@ -1,4 +1,4 @@
-# REDDIT-GRAPH v2022.09.19.094510
+# REDDIT-GRAPH v2022.09.19.130540
 
 This project aims to build a graph of subreddit links based on how they reference each other.
 
@@ -39,12 +39,12 @@ The database dumps in (csv format) can be found [HERE!](https://github.com/fedec
 
 TYPE | AMOUNT
 --- | ---
-TOTAL|127088
-public|58779
-banned|31434
-restricted|14423
-public [nsfw]|14239
-private|5098
+TOTAL|127330
+public|58931
+banned|31443
+restricted|14492
+public [nsfw]|14241
+private|5108
 restricted [nsfw]|3014
 public [quarantined]|29
 restricted [quarantined]|21
@@ -53,8 +53,8 @@ public [nsfw] [quarantined]|11
 premium|11
 user [nsfw]|6
 user|4
-employees|1
 restricted [nsfw] [quarantined]|1
+employees|1
 
 
 
@@ -67,7 +67,7 @@ restricted [nsfw] [quarantined]|1
 * `type (str)`: place where the reference from source to target was found.
     * **description**: the reference was found in the description (see subreddit.description).
         * e.g.: [/r/hbo -> /r/hbomax](https://www.reddit.com/r/hbo/) (under "About Community").
-    * **sidebar**: the reference was found in the links on the sidebar.
+    * **sidebar**: the reference was found in the sidebar (this include both sidebars from old and new reddit styles).
         * e.g.: [/r/hearthstone -> /r/bobstavern](https://www.reddit.com/r/hearthstone/) (under "Related Subreddits").
     * **topbar**: the reference was found in the links on the topbar.
         * e.g.: [/r/rocketleague > /r/rocketleagueesports](https://www.reddit.com/r/RocketLeague/) (under "Esports/Subreddit").
@@ -79,10 +79,10 @@ restricted [nsfw] [quarantined]|1
 
 TYPE | AMOUNT
 --- | ---
-TOTAL|341415
-wiki|214158
-sidebar|115402
-topbar|7286
-description|4569
+TOTAL|344212
+wiki|214164
+sidebar|118183
+topbar|7287
+description|4578
 
 

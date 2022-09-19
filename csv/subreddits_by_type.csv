@@ -1,10 +1,10 @@
 type_,amount
-TOTAL,127088
-public,58779
-banned,31434
-restricted,14423
-public [nsfw],14239
-private,5098
+TOTAL,127330
+public,58931
+banned,31443
+restricted,14492
+public [nsfw],14241
+private,5108
 restricted [nsfw],3014
 public [quarantined],29
 restricted [quarantined],21
@@ -13,5 +13,5 @@ public [nsfw] [quarantined],11
 premium,11
 user [nsfw],6
 user,4
-employees,1
 restricted [nsfw] [quarantined],1
+employees,1
