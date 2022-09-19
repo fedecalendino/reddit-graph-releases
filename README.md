@@ -1,4 +1,4 @@
-# REDDIT-GRAPH v2022.09.18.134817
+# REDDIT-GRAPH v2022.09.19.094510
 
 This project aims to build a graph of subreddit links based on how they reference each other.
 
@@ -39,13 +39,13 @@ The database dumps in (csv format) can be found [HERE!](https://github.com/fedec
 
 TYPE | AMOUNT
 --- | ---
-TOTAL|126953
-public|58755
-banned|31339
-restricted|14409
-public [nsfw]|14247
-private|5084
-restricted [nsfw]|3018
+TOTAL|127088
+public|58779
+banned|31434
+restricted|14423
+public [nsfw]|14239
+private|5098
+restricted [nsfw]|3014
 public [quarantined]|29
 restricted [quarantined]|21
 archived|17
@@ -53,8 +53,8 @@ public [nsfw] [quarantined]|11
 premium|11
 user [nsfw]|6
 user|4
-restricted [nsfw] [quarantined]|1
 employees|1
+restricted [nsfw] [quarantined]|1
 
 
 
@@ -79,10 +79,10 @@ employees|1
 
 TYPE | AMOUNT
 --- | ---
-TOTAL|338696
-wiki|214079
-sidebar|112765
-topbar|7285
-description|4567
+TOTAL|341415
+wiki|214158
+sidebar|115402
+topbar|7286
+description|4569
 
 
