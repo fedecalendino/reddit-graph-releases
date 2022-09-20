@@ -1,13 +1,13 @@
 type_,amount
-TOTAL,127918
-public,59301
-banned,31480
-restricted,14634
-public [nsfw],14245
-private,5142
-restricted [nsfw],3014
+TOTAL,128161
+public,59450
+banned,31495
+restricted,14683
+public [nsfw],14247
+private,5166
+restricted [nsfw],3017
 public [quarantined],29
-restricted [quarantined],21
+restricted [quarantined],22
 archived,17
 premium,12
 public [nsfw] [quarantined],11
