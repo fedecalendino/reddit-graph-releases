@@ -7,7 +7,7 @@ UNION
 (
 	SELECT 
 		CONCAT(
-			CONCAT('**', type, '**'),
+			'**' || type || '**',
 			CASE WHEN nsfw THEN ' [nsfw]' ELSE '' END, 
 			CASE WHEN quarantined THEN ' [quarantined]' ELSE '' END
 		) AS type_,

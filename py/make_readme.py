@@ -14,7 +14,7 @@ def make_table(source: str):
 		next(reader)  # skip header row
 
 		for row in reader:
-			lines.append("|".join(row))
+			lines.append(" | ".join(row))
 
 	lines.append("")
 
