@@ -45,6 +45,11 @@ echo " * making release on github..."
 curl -X POST  -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GITHUB_ACCESS_TOKEN" --data "{\"tag_name\": \"$VERSION\", \"target_commitish\": \"main\", \"name\": \"$VERSION\", \"body\": \"Release $VERSION\", \"draft\": false, \"prerelease\": false, \"generate_release_notes\": false }" "https://api.github.com/repos/$GITHUB_OWNER/$GITHUB_REPOSITORY/releases"  
 echo ""
 
-echo "Finished"
+echo ""
+echo ""
+
+echo "Finished 🚀"
+ls -S -lh csv/ | awk '{print $5, $9}'
+echo ""
 echo "https://github.com/$GITHUB_OWNER/$GITHUB_REPOSITORY/releases/tag/$VERSION"
 echo ""
