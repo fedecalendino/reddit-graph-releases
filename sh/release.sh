@@ -49,7 +49,11 @@ echo ""
 echo ""
 
 echo "Finished 🚀"
-ls -S -lh csv/ | awk '{print $5, $9}'
 echo ""
+
+echo "* $(cat csv/subreddits_by_type.csv | grep TOTAL | sed 's/.*,//') subreddits "
+echo "* $(cat csv/links_by_type.csv | grep TOTAL | sed 's/.*,//') links"
+echo ""
+
 echo "https://github.com/$GITHUB_OWNER/$GITHUB_REPOSITORY/releases/tag/$VERSION"
 echo ""
