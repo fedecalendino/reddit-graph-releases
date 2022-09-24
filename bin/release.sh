@@ -1,10 +1,10 @@
-source sh/env.sh
+source bin/env.sh
 
 
 function dump() {
 	NAME="$1"
 
-	QUERY=$(cat "sql/$NAME.sql")
+	QUERY=$(cat "bin/sql/$NAME.sql")
 	CSV="csv/$NAME.csv"
 
 	echo " * fetching $NAME ($CSV)"
@@ -29,7 +29,7 @@ dump "links_by_type"
 dump "links"
 
 echo " * generating readme file"
-python3 py/make_readme.py $VERSION
+python3 bin/make_readme.py $VERSION
 echo ""
 
 
