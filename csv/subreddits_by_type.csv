@@ -1,11 +1,11 @@
 type_,amount
-**TOTAL**,134184
-**public**,63475
+**TOTAL**,134187
+**public**,63476
 **banned**,31870
-**restricted**,15971
+**restricted**,15972
 **public** [nsfw],14296
 **private**,5445
-**restricted** [nsfw],3023
+**restricted** [nsfw],3024
 **public** [quarantined],29
 **restricted** [quarantined],22
 **archived**,17
@@ -13,5 +13,5 @@ type_,amount
 **public** [nsfw] [quarantined],11
 **user** [nsfw],6
 **user**,5
-**restricted** [nsfw] [quarantined],1
 **employees**,1
+**restricted** [nsfw] [quarantined],1
