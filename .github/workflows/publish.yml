@@ -1,4 +1,4 @@
-name: Publish package
+name: Notify release
 
 on:
   release:
@@ -14,5 +14,4 @@ jobs:
       - name: Notify via Slack
         with:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
-          pypi_project_name: reddit-graph-releases
         uses: fedecalendino/slack-release-notifier@v1.2.1
