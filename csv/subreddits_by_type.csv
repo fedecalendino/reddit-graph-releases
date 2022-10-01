@@ -1,10 +1,10 @@
 type_,amount
-**TOTAL**,134409
-**public**,63504
-**banned**,32253
+**TOTAL**,134417
+**public**,63511
+**banned**,32252
 **restricted**,16101
-**public** [nsfw],13996
-**private**,5483
+**public** [nsfw],13997
+**private**,5484
 **restricted** [nsfw],2969
 **public** [quarantined],29
 **restricted** [quarantined],22
