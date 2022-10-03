@@ -1,4 +1,4 @@
-# REDDIT-GRAPH v2022.10.02.170248
+# REDDIT-GRAPH v2022.10.03.031216
 
 This project aims to build a graph of subreddit links based on how they reference each other.
 
@@ -39,12 +39,12 @@ The database dumps in (csv format) can be found [HERE!](./csv).
 
 TYPE | AMOUNT
 --- | ---
-**TOTAL** | 134471
-**public** | 63547
-**banned** | 32256
-**restricted** | 16104
-**public** [nsfw] | 14002
-**private** | 5490
+**TOTAL** | 134484
+**public** | 63552
+**banned** | 32259
+**restricted** | 16105
+**public** [nsfw] | 14004
+**private** | 5492
 **restricted** [nsfw] | 2969
 **public** [quarantined] | 29
 **restricted** [quarantined] | 22
@@ -53,8 +53,8 @@ TYPE | AMOUNT
 **public** [nsfw] [quarantined] | 10
 **user** [nsfw] | 6
 **user** | 5
-**employees** | 1
 **restricted** [nsfw] [quarantined] | 1
+**employees** | 1
 
 
 
@@ -79,10 +79,10 @@ TYPE | AMOUNT
 
 TYPE | AMOUNT
 --- | ---
-**TOTAL** | 495855
-**sidebar** | 267044
-**wiki** | 216220
-**topbar** | 7457
+**TOTAL** | 495961
+**sidebar** | 267109
+**wiki** | 216260
+**topbar** | 7458
 **description** | 5134
 
 
