@@ -1,11 +1,11 @@
 type_,amount
-**TOTAL**,142234
-**public**,65198
-**banned**,36351
-**restricted**,19936
-**public** [nsfw],11725
-**private**,6076
-**restricted** [nsfw],2844
+**TOTAL**,142685
+**public**,65285
+**banned**,36578
+**restricted**,20151
+**public** [nsfw],11598
+**private**,6219
+**restricted** [nsfw],2751
 **public** [quarantined],26
 **restricted** [quarantined],22
 **archived**,17
@@ -14,7 +14,6 @@ type_,amount
 **user** [nsfw],5
 **user**,4
 **restricted** [nsfw] [quarantined],3
-**employees**,2
 **error**,2
+**employees**,2
 **error** [nsfw],1
-**private** [nsfw],1
